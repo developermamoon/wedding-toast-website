@@ -47,12 +47,28 @@ footer h1{
     color: white;
 }
 
+.toast-text-container{
+    width: 60%;
+}
+
+.blur-text1{
+    filter: blur(1px);
+}
+.blur-text2{
+    filter: blur(4px);
+}
+
+
  /*------------------- tab view  ---------------*/
 
  @media only screen and (min-width: 577px) and (max-width: 990px) {
     form {
             width: auto;
         }
+
+    .toast-text-container {
+        width: auto;
+    }
  }
 
 
@@ -61,5 +77,8 @@ footer h1{
  @media only screen and (max-width: 576px) {
     form {
             width: auto;
-        }
+    }
+    .toast-text-container {
+        width: auto;
+    }
  }
