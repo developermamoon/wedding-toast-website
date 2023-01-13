@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=League+Spartan&display=swap');
 
+.body-color-1{
+    background-color: #F4F0ED;
+}
+
 .banner {
     background-image: url('images/b2.jpg');
     background-repeat: no-repeat;
@@ -13,19 +17,59 @@
     font-size: 50px;
 }
 
+.underline{
+    width: 25%;
+    margin: 0 auto;
+    background-color: black;
+    height: 2px;
+}
 
+.tool-box {
+    height: auto;
+}
 
-.Logo, .design-text  {
+.tool-box h5 {
     font-family: 'Cormorant Garamond', serif;
 }
 
-.testimonial .container{
+.tool-box p {
+    font-size: 14px;
+}
+
+.tool .design-text  {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.toolmonial .container{
     width: 50%;
 }
 
 .benefit-header {
     font-family: 'Cormorant Garamond', serif;
 
+}
+
+.hr1{
+    width: 13%;
+    background-color: white;
+    color: white;
+    height: 2px;
+}
+.hr2{
+    width: 8%;
+    background-color: black;
+    color: black;
+    height: 2px;
+}
+.why-wait{
+    background-color: #989898;
+}
+
+.space{
+    padding: 100px 180px;
+}
+.second-banner{
+    background-image: url("/images/banner2.jpeg");
 }
 
 footer h1 {
@@ -54,15 +98,15 @@ footer h1 {
     color: white;
 }
 
-.toast-text-container {
+.tool-text-container {
     width: 60%;
 }
 
-.blur-text1 {
+.tooltext1 {
     filter: blur(1px);
 }
 
-.blur-text2 {
+.tooltext2 {
     filter: blur(4px);
 }
 
@@ -80,15 +124,15 @@ footer h1 {
     background-color: black;
 }
 
-.toast-box {
+.tool-box {
     height: 280px;
 }
 
-.toast-box h5 {
+.tool-box h5 {
     font-family: 'Cormorant Garamond', serif;
 }
 
-.toast-box p {
+.tool-box p {
     font-size: 14px;
 }
 
@@ -146,5 +190,9 @@ footer h1 {
 
     .logo-section .container {
         width: auto;
+    }
+
+    .space {
+        padding: 60px 40px;
     }
 }
