@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=League+Spartan&display=swap');
+
+.body-color-1 {
+    background-color: #F4F0ED;
+}
+
+.banner {
+    background-image: url('/images/b3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    padding-bottom: 150px;
+}
+
+.banner h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+}
+
+.underline {
+    width: 25%;
+    margin: 0 auto;
+    background-color: black;
+    height: 2px;
+}
+
+.toast-text-container {
+    width: 60%;
+}
+
+.blur-text1 {
+    filter: blur(1px);
+}
+
+.blur-text2 {
+    filter: blur(4px);
+}
+
+.tool-box {
+    height: auto;
+}
+
+.tool-box h5 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.tool-box p {
+    font-size: 14px;
+}
+
+.tool .design-text {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.toolmonial .container {
+    width: 50%;
+}
+
+.benefit-header {
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.hr1 {
+    width: 13%;
+    background-color: white;
+    color: white;
+    height: 2px;
+}
+
+.hr2 {
+    width: 8%;
+    background-color: black;
+    color: black;
+    height: 2px;
+}
+
+.why-wait {
+    background-color: #989898;
+}
+
+.space {
+    padding: 100px 180px;
+}
+
+.second-banner {
+    background-image: url("/images/banner2.jpeg");
+}
+
+footer h1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.round-icons {
+    background-color: darkslategrey;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.tool-text-container {
+    width: 60%;
+}
+
+.tooltext1 {
+    filter: blur(1px);
+}
+
+.tooltext2 {
+    filter: blur(4px);
+}
+
+.body-color-1 {
+    background-color: #F4F0ED;
+}
+
+.underline {
+    width: 10%;
+}
+
+.underline-2 {
+    width: 35%;
+    height: 2px;
+    background-color: black;
+}
+
+.tool-box {
+    height: 280px;
+}
+
+.tool-box h5 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.tool-box p {
+    font-size: 14px;
+}
+
+.input-section-2 form {
+    width: 60%;
+}
+
+.logo-section .container {
+    width: 60%
+}
+
+.resize-image-1 {
+    width: 500px;
+    margin-bottom: 150px;
+}
+
+.resize-image-2 {
+    width: 500px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+
+/*------------------- tab view  ---------------*/
+
+@media only screen and (min-width: 577px) and (max-width: 990px) {
+    .banner {
+        background-position: center;
+    }
+
+    .toast-text-container {
+        width: auto;
+    }
+
+    .input-section-2 form {
+        width: auto;
+    }
+
+    .testimonial .container {
+        width: auto;
+    }
+
+    .logo-section .container {
+        width: auto;
+    }
+
+    .resize-image-1 {
+        width: 300px;
+        margin-bottom: 150px;
+    }
+
+    .resize-image-2 {
+        width: 300px;
+    }
+        .toast-text-container {
+            width: auto;
+        }
+}
+
+
+
+/*------------------- Mobile view  ---------------*/
+@media only screen and (max-width: 576px) {
+    .banner {
+        background-position: center;
+    }
+
+    .toast-text-container {
+        width: auto;
+    }
+
+    .input-section-2 form {
+        width: auto;
+    }
+
+    .testimonial .container {
+        width: auto;
+    }
+
+    .logo-section .container {
+        width: auto;
+    }
+
+    .resize-image-1 {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .resize-image-2 {
+        width: 250px;
+        position: relative;
+        left: 0;
+        /* top: 30%; */
+    }
+
+    .space {
+        padding: 60px 40px;
+    }
+
+        .toast-text-container {
+            width: auto;
+        }
+}
