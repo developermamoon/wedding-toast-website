@@ -144,6 +144,18 @@ footer h1 {
     width: 60%
 }
 
+.resize-image-1{
+    width: 500px;
+    margin-bottom: 150px;
+}
+
+.resize-image-2{
+    width: 500px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
 
 /*------------------- tab view  ---------------*/
 
@@ -166,6 +178,15 @@ footer h1 {
 
         .logo-section .container {
             width: auto;
+        }
+
+        .resize-image-1 {
+            width: 300px;
+            margin-bottom: 150px;
+        }
+
+        .resize-image-2{
+            width: 300px;
         }
 }
 
@@ -190,6 +211,18 @@ footer h1 {
 
     .logo-section .container {
         width: auto;
+    }
+
+    .resize-image-1 {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .resize-image-2 {
+        width: 250px;
+        position: relative;
+        left: 0;
+        /* top: 30%; */
     }
 
     .space {
