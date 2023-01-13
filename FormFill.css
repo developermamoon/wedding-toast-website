@@ -1,37 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=League+Spartan&display=swap');
 
-.banner{
-    background-image: url('images/banner3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.banner {
+    /* background-image: url('images/banner3.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 }
-.banner h1{
+
+.banner h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
 }
-.banner p{
-    font-family: 'League Spartan', sans-serif;
-}
-.Logo{
+
+
+
+.Logo {
     font-family: 'Cormorant Garamond', serif;
 }
 
-form{
-    width: 50%;
+form {
+    /* width: 50%; */
     margin: 0 auto;
 }
 
-footer h1{
+footer h1 {
     font-family: 'Cormorant Garamond', serif;
 }
-.footer-links a{
+
+.footer-links a {
     text-decoration: none;
     color: black;
     display: block;
 }
 
-.round-icons{
+.round-icons {
     background-color: darkslategrey;
     border-radius: 50%;
     width: 45px;
@@ -42,47 +44,79 @@ footer h1{
     align-items: center;
 }
 
-.round-icons a{
+.round-icons a {
     text-decoration: none;
     color: white;
 }
 
-.toast-text-container{
+.toast-text-container {
     width: 60%;
 }
 
-.blur-text1{
+.blur-text1 {
     filter: blur(1px);
 }
-.blur-text2{
+
+.blur-text2 {
     filter: blur(4px);
 }
 
-.body-color-1{
+.body-color-1 {
     background-color: #F4F0ED;
 }
 
+.underline{
+    width: 10%;
+}
 
- /*------------------- tab view  ---------------*/
+.underline-2{
+    width: 35%;
+}
+.toast-box{
+    height: 280px;
+}
 
- @media only screen and (min-width: 577px) and (max-width: 990px) {
+.toast-box h5{
+    font-family: 'Cormorant Garamond', serif;
+}
+.toast-box p{
+    font-size: 14px;
+}
+
+.input-section-2 form{
+    width: 60%;
+}
+
+
+/*------------------- tab view  ---------------*/
+
+@media only screen and (min-width: 577px) and (max-width: 990px) {
     form {
-            width: auto;
-        }
+        width: auto;
+    }
 
     .toast-text-container {
         width: auto;
     }
- }
 
-
-
- /*------------------- Mobile view  ---------------*/
- @media only screen and (max-width: 576px) {
-    form {
-            width: auto;
+    .input-section-2 form {
+        width: auto;
     }
+}
+
+
+
+/*------------------- Mobile view  ---------------*/
+@media only screen and (max-width: 576px) {
+    form {
+        width: auto;
+    }
+
     .toast-text-container {
         width: auto;
     }
- }
+
+    .input-section-2 form {
+        width: auto;
+    }
+}
