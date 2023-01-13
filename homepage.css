@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=League+Spartan&display=swap');
+
+.banner {
+    background-image: url('images/b2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.banner h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+}
+
+
+
+.Logo, .design-text  {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.testimonial .container{
+    width: 50%;
+}
+
+.benefit-header {
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+footer h1 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.round-icons {
+    background-color: darkslategrey;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.toast-text-container {
+    width: 60%;
+}
+
+.blur-text1 {
+    filter: blur(1px);
+}
+
+.blur-text2 {
+    filter: blur(4px);
+}
+
+.body-color-1 {
+    background-color: #F4F0ED;
+}
+
+.underline {
+    width: 10%;
+}
+
+.underline-2 {
+    width: 35%;
+    height: 2px;
+    background-color: black;
+}
+
+.toast-box {
+    height: 280px;
+}
+
+.toast-box h5 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.toast-box p {
+    font-size: 14px;
+}
+
+.input-section-2 form {
+    width: 60%;
+}
+
+.logo-section .container{
+    width: 60%
+}
+
+
+/*------------------- tab view  ---------------*/
+
+@media only screen and (min-width: 577px) and (max-width: 990px) {
+    .banner {
+        background-position: center;
+    }
+
+    .toast-text-container {
+        width: auto;
+    }
+
+    .input-section-2 form {
+        width: auto;
+    }
+
+        .testimonial .container {
+            width: auto;
+        }
+
+        .logo-section .container {
+            width: auto;
+        }
+}
+
+
+
+/*------------------- Mobile view  ---------------*/
+@media only screen and (max-width: 576px) {
+    .banner {
+            background-position: center;
+        }
+
+    .toast-text-container {
+        width: auto;
+    }
+
+    .input-section-2 form {
+        width: auto;
+    }
+        .testimonial .container {
+            width: auto;
+        }
+
+    .logo-section .container {
+        width: auto;
+    }
+}
