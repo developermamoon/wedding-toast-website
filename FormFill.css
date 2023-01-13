@@ -71,6 +71,8 @@ footer h1 {
 
 .underline-2{
     width: 35%;
+    height: 2px;
+    background-color: black;
 }
 .toast-box{
     height: 280px;
