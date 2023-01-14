@@ -101,8 +101,10 @@
     padding: 100px 180px;
 }
 .second-banner{
-    background-image: url("/images/homepagebanner2.jpeg");
+    background-image: url("images/homepagebanner2.jpeg");
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 

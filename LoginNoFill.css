@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap');
 
 .banner{
     background-image: url('images/banner3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 50px;
+
+.registration-banner{
+    background-image: url('images/registrationpagebanner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.banner p{
-    font-family: 'League Spartan', sans-serif;
-}
+
 .Logo a {
     font-family: 'Cormorant Garamond', serif;
     font-size: 38px;
@@ -29,17 +29,29 @@ form{
     margin: 0 auto;
 }
 
+.garamond{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.spartan{
+    font-family: 'League Spartan', sans-serif;
+}
+
+
 footer h1{
     font-family: 'Cormorant Garamond', serif;
 }
-.footer-links a{
+.footer-links a {
     text-decoration: none;
     color: black;
     display: block;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0 20px;
+    font-size: 18px;
 }
 
-.round-icons{
-    background-color: darkslategrey;
+.round-icons {
+    background-color: #4D504A;
     border-radius: 50%;
     width: 45px;
     height: 45px;
