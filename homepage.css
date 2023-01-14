@@ -1,20 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=League+Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap');
 
 .body-color-1{
     background-color: #F4F0ED;
 }
 
-.banner {
-    background-image: url('images/b2.jpg');
+.banner{
+    background-image: url('images/homepagebanner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
+    position: relative;
 }
+
+.dark-shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: opacity(60%);
+    background-color: black;
+}
+
+.banner .container{
+    position: relative;
+}
+
+.extra-margin{
+    padding-top: 150px;
+}
+
+.testimonial{
+    padding: 50px 0;
+}
+
+.spartan{
+    font-family: 'League Spartan', sans-serif;
+}
+
 
 .banner h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
+}
+
+.Logo a{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: bolder;
+    color: #4d504a;
+}
+
+.menu li a{
+    font-size: 18px;
 }
 
 .underline{
@@ -25,22 +61,18 @@
 }
 
 .tool-box {
-    height: auto;
-}
-
-.tool-box h5 {
-    font-family: 'Cormorant Garamond', serif;
+    height: 221px;
 }
 
 .tool-box p {
     font-size: 14px;
 }
 
-.tool .design-text  {
+.garamond{
     font-family: 'Cormorant Garamond', serif;
 }
 
-.toolmonial .container{
+.testimonial .container{
     width: 50%;
 }
 
@@ -69,21 +101,33 @@
     padding: 100px 180px;
 }
 .second-banner{
-    background-image: url("/images/banner2.jpeg");
+    background-image: url("/images/homepagebanner2.jpeg");
+    position: relative;
+    background-position: center;
 }
 
-footer h1 {
+.second-banner .container{
+    position: relative;
+}
+
+
+footer h1{
     font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    color: #4d504a;
 }
 
 .footer-links a {
     text-decoration: none;
     color: black;
     display: block;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0 20px;
+    font-size: 18px;
 }
 
 .round-icons {
-    background-color: darkslategrey;
+    background-color: #4D504A;
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -125,7 +169,7 @@ footer h1 {
 }
 
 .tool-box {
-    height: 280px;
+    /* height: 280px; */
 }
 
 .tool-box h5 {
@@ -141,7 +185,8 @@ footer h1 {
 }
 
 .logo-section .container{
-    width: 60%
+    width: 60%;
+    padding-bottom: 80px;
 }
 
 .resize-image-1{
