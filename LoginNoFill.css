@@ -65,6 +65,17 @@
     position: relative;
 }
 
+.login-post-fill-banner{
+        background-image: url('images/registrationpagebanner.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+.login-post-fill-banner .container{
+    position: relative;
+}
+
 
 
 form{
