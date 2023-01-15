@@ -5,6 +5,34 @@
     background-color: #F4F0ED;
 }
 
+/*------------------------------------------ navbar  */
+
+
+
+.Logo a {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: bolder;
+    color: #4d504a;
+}
+
+.menu li a {
+    font-size: 18px;
+}
+
+.garamond {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.spartan {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* navbar ------------------------------------------  */
+
+
+
+/*--------------------------------------------- banner  */
 .banner{
     background-image: url('images/homepagebanner.jpeg');
     background-repeat: no-repeat;
@@ -32,25 +60,13 @@
     padding: 50px 0;
 }
 
-.spartan{
-    font-family: 'League Spartan', sans-serif;
-}
+/*--------------------------------------------- banner  */
+
 
 
 .banner h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 50px;
-}
-
-.Logo a{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 38px;
-    font-weight: bolder;
-    color: #4d504a;
-}
-
-.menu li a{
-    font-size: 18px;
 }
 
 .underline{
@@ -68,9 +84,7 @@
     font-size: 14px;
 }
 
-.garamond{
-    font-family: 'Cormorant Garamond', serif;
-}
+
 
 .testimonial .container{
     width: 50%;
@@ -112,7 +126,7 @@
     position: relative;
 }
 
-
+/*--------------------------------------------- footer  */
 footer h1{
     font-family: 'Cormorant Garamond', serif;
     font-size: 48px;
@@ -143,6 +157,7 @@ footer h1{
     text-decoration: none;
     color: white;
 }
+/*--------------------------------------------- footer  */
 
 .tool-text-container {
     width: 60%;
