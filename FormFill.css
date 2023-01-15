@@ -17,21 +17,11 @@
 .garamond{
     font-family: 'Cormorant Garamond', serif;
 }
+.spartan {
+    font-family: 'League Spartan', sans-serif;
+}
 
 /*---------------------------------------------- navbar  */
-
-.banner {
-    /* background-image: url('images/banner3.jpg'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-}
-
-.banner h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 50px;
-}
-
-
 
 form {
     /* width: 50%; */
@@ -57,6 +47,8 @@ form {
     background-color: #F4F0ED;
 }
 
+
+/* toast box --------------------------- */
 .underline{
     width: 10%;
 }
@@ -66,35 +58,44 @@ form {
     height: 2px;
     background-color: black;
 }
+
+
 .toast-box{
     height: 280px;
 }
 
 .toast-box h5{
     font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
 }
 .toast-box p{
+    font-family: 'League Spartan', sans-serif;
     font-size: 14px;
 }
+
+/* toast box --------------------------- */
 
 .input-section-2 form{
     width: 60%;
 }
 
-/*--------------------------------------------------- footer  */
-
 footer h1 {
     font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    color: #4d504a;
 }
 
 .footer-links a {
     text-decoration: none;
     color: black;
     display: block;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0 20px;
+    font-size: 18px;
 }
 
 .round-icons {
-    background-color: darkslategrey;
+    background-color: #4D504A;
     border-radius: 50%;
     width: 45px;
     height: 45px;
@@ -109,7 +110,7 @@ footer h1 {
     color: white;
 }
 
-/*--------------------------------------------------- footer  */
+/*--------------------------------------------- footer  */
 
 
 /*------------------- tab view  ---------------*/
