@@ -75,8 +75,9 @@ form {
 
 /* toast box --------------------------- */
 
-.input-section-2 form{
+.input-section-2 .container{
     width: 60%;
+    /* margin: 0 auto; */
 }
 
 footer h1 {
@@ -124,7 +125,7 @@ footer h1 {
         width: auto;
     }
 
-    .input-section-2 form {
+    .input-section-2 .container {
         width: auto;
     }
 }
@@ -141,7 +142,7 @@ footer h1 {
         width: auto;
     }
 
-    .input-section-2 form {
+    .input-section-2 .container {
         width: auto;
     }
 }
