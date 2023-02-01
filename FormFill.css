@@ -84,7 +84,10 @@ form {
 }
 
 
-#type-toast-1:checked:checked~.option-1 {
+#type-toast-1:checked:checked~.option-1,
+#type-toast-2:checked:checked~.option-2,
+#type-toast-3:checked:checked~.option-3,
+#type-toast-4:checked:checked~.option-4 {
     border-color: #0069d9;
     color: #ffffff;
     background-color: #4d504a;
@@ -93,14 +96,41 @@ form {
 
 .option-1 .dot {
     height: 16px;
-    width: 65px;
+    width: 60px;
+    margin : 5px 1px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+}
+.option-2 .dot{
+        height: 16px;
+        width: 75px;
+        margin: 5px 1px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        position: relative;
+}
+
+.option-3 .dot{
+
+        height: 16px;
+        width: 85px;
+        margin: 5px 1px;
+        background: #d9d9d9;
+        border-radius: 50%;
+        position: relative;
+}
+
+.option-4 .dot {
+    height: 16px;
+    width: 90px;
     margin : 5px 1px;
     background: #d9d9d9;
     border-radius: 50%;
     position: relative;
 }
 
- .option-1 .dot::before {
+ .option-1 .dot::before, .option-2 .dot::before, .option-3 .dot::before, .option-4 .dot::before {
     position: absolute;
     content: "";
     top: 3px;
@@ -115,12 +145,16 @@ form {
 }
 
 #type-toast-1:checked:checked~.option-1 .dot,
-#type-toast-1:checked:checked~.option-2 .dot {
+#type-toast-2:checked:checked~.option-2 .dot,
+#type-toast-3:checked:checked~.option-3 .dot,
+#type-toast-4:checked:checked~.option-4 .dot {
     background: #fff;
 }
 
 #type-toast-1:checked:checked~.option-1 .dot::before,
-#type-toast-1:checked:checked~.option-2 .dot::before {
+#type-toast-2:checked:checked~.option-2 .dot::before,
+#type-toast-3:checked:checked~.option-3 .dot::before,
+#type-toast-4:checked:checked~.option-4 .dot::before {
     opacity: 1;
     transform: scale(1);
 }
@@ -176,6 +210,31 @@ footer h1 {
     .input-section-2 .container {
         width: auto;
     }
+
+    .option-1 .dot {
+        height: 16px;
+        width: 45px;
+    }
+
+    .option-2 .dot {
+        height: 16px;
+        width: 55px;
+    }
+
+    .option-3 .dot{
+
+        height: 16px;
+        width: 58px;
+        /* margin: 5px 1px; */
+        background: #d9d9d9;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .option-4 .dot {
+        height: 16px;
+        width: 65px;
+    }
 }
 
 
@@ -192,5 +251,30 @@ footer h1 {
 
     .input-section-2 .container {
         width: auto;
+    }
+
+    .option-1 .dot {
+        height: 16px;
+        width: 35px;
+    }
+
+    .option-2 .dot {
+        height: 16px;
+        width: 45px;
+    }
+
+    .option-3 .dot {
+
+        height: 16px;
+        width: 50px;
+        /* margin: 5px 1px; */
+        background: #d9d9d9;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .option-4 .dot {
+        height: 16px;
+        width: 55px;
     }
 }
