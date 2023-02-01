@@ -97,69 +97,56 @@ form {
 #toast-tone-2:checked:checked~.option-6,
 #toast-tone-3:checked:checked~.option-7,
 #toast-tone-4:checked:checked~.option-8{
-    border-color: #0069d9;
     color: #ffffff;
     background-color: #4d504a;
 }
 
-.checkmarks{
-    display: block;
-        position: relative;
-        /* padding-left: 35px; */
-        /* margin-bottom: 12px; */
-        cursor: pointer;
-        font-size: 22px;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
+
+.option-5 .square, .option-8 .square{
+    height: 16px;
+    width: 90px;
+    margin: 5px 1px;
+    background: #d9d9d9;
+    position: relative;
 }
 
-/* Hide the browser's default checkbox */
-.checkmarks input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
+.option-6 .square, .option-7 .square
+{
+    height: 16px;
+    width: 67px;
+    margin: 5px 1px;
+    background: #d9d9d9;
+    position: relative;
 }
 
-/* Create a custom checkbox */
-.checkmark {
-    position: absolute;
-    top: 6px;
-    left: 0;
-    height: 15px;
-    width: 15px;
-    background-color: #eee;
+/* making sqare button white --------------- */
+#toast-tone-1:checked:checked~.option-5 .square,
+#toast-tone-4:checked:checked~.option-8 .square{
+    height: 16px;
+    width: 90px;
+    margin: 5px 1px;
+    background: white;
+    position: relative;
 }
 
-/* On mouse-over, add a grey background color */
-.checkmarks:hover input~.checkmark {
-    background-color: #ccc;
+#toast-tone-2:checked:checked~.option-6 .square,
+#toast-tone-3:checked:checked~.option-7 .square{
+    height: 16px;
+    width: 65px;
+    margin: 5px 1px;
+    background: white;
+    position: relative;
 }
 
-/* When the checkbox is checked, add a blue background */
-.checkmarks input:checked~.checkmark {
-    background-color: white;
+.sqaure{
+    position: relative;
 }
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the checkmark when checked */
-.checkmarks input:checked~.checkmark:after {
-    display: block;
-}
-
-/* Style the checkmark/indicator */
-.checkmarks .checkmark:after {
-    left: 7px;
-    top: -8px;
+#toast-tone-1:checked:checked~.option-5 .square .checkmark,
+#toast-tone-2:checked:checked~.option-6 .square .checkmark,
+#toast-tone-3:checked:checked~.option-7 .square .checkmark,
+#toast-tone-4:checked:checked~.option-8 .square .checkmark {
+    left: 6px;
+    top: -7px;
     width: 8px;
     height: 22px;
     border: solid red;
@@ -167,6 +154,7 @@ form {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+    position: absolute;
 }
 
 
@@ -220,10 +208,32 @@ form {
     transition: all 0.3s ease;
 }
 
+
+ .option-5 .square::before, .option-6 .square::before, .option-7 .square::before, .option-8 .square::before {
+    /* position: absolute; */
+    content: "";
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    background: red;
+    /* border-radius: 50%; */
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
+
 #type-toast-1:checked:checked~.option-1 .dot,
 #type-toast-2:checked:checked~.option-2 .dot,
 #type-toast-3:checked:checked~.option-3 .dot,
 #type-toast-4:checked:checked~.option-4 .dot {
+    background: #fff;
+}
+
+#toast-tone-1:checked:checked~.option-5 .sqaure,
+#toast-tone-2:checked:checked~.option-6 .sqaure,
+#toast-tone-3:checked:checked~.option-7 .sqaure,
+#toast-tone-4:checked:checked~.option-8 .sqaure{
     background: #fff;
 }
 
@@ -311,6 +321,41 @@ footer h1 {
         height: 16px;
         width: 65px;
     }
+
+        .option-5 .square, .option-8 .square {
+            height: 16px;
+            width: 65px;
+            margin: 5px 1px;
+            background: #d9d9d9;
+            position: relative;
+        }
+    
+        .option-6 .square, .option-7 .square {
+            height: 16px;
+            width: 50px;
+            margin: 5px 1px;
+            background: #d9d9d9;
+            position: relative;
+        }
+    
+        /* making sqare button white --------------- */
+        #toast-tone-1:checked:checked~.option-5 .square,
+        #toast-tone-4:checked:checked~.option-8 .square {
+            height: 16px;
+            width: 65px;
+            margin: 5px 1px;
+            background: white;
+            position: relative;
+        }
+    
+        #toast-tone-2:checked:checked~.option-6 .square,
+        #toast-tone-3:checked:checked~.option-7 .square {
+            height: 16px;
+            width: 50px;
+            margin: 5px 1px;
+            background: white;
+            position: relative;
+        }
 }
 
 
@@ -352,5 +397,42 @@ footer h1 {
     .option-4 .dot {
         height: 16px;
         width: 55px;
+    }
+
+    .option-5 .square,
+    .option-8 .square {
+        height: 16px;
+        width: 50px;
+        margin: 5px 1px;
+        background: #d9d9d9;
+        position: relative;
+    }
+
+    .option-6 .square,
+    .option-7 .square {
+        height: 16px;
+        width: 40px;
+        margin: 5px 1px;
+        background: #d9d9d9;
+        position: relative;
+    }
+
+    /* making sqare button white --------------- */
+    #toast-tone-1:checked:checked~.option-5 .square,
+    #toast-tone-4:checked:checked~.option-8 .square {
+        height: 16px;
+        width: 50px;
+        margin: 5px 1px;
+        background: white;
+        position: relative;
+    }
+
+    #toast-tone-2:checked:checked~.option-6 .square,
+    #toast-tone-3:checked:checked~.option-7 .square {
+        height: 16px;
+        width: 40px;
+        margin: 5px 1px;
+        background: white;
+        position: relative;
     }
 }
