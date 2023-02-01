@@ -93,6 +93,48 @@ form {
     background-color: #4d504a;
 }
 
+#toast-tone-1:checked:checked~.option-5,
+#toast-tone-2:checked:checked~.option-6,
+#toast-tone-3:checked:checked~.option-7,
+#toast-tone-4:checked:checked~.option-8{
+    border-color: #0069d9;
+    color: #ffffff;
+    background-color: #4d504a;
+}
+
+.checkmarks{
+    position: relative;
+}
+
+/* Hide the browser's default checkbox */
+.checkmarks input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkmarks:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: white;
+}
+
 
 .option-1 .dot {
     height: 16px;
