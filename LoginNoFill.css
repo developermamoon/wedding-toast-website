@@ -1,15 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap'); */
 
 
-/*------------------------------------------- navbar  */
+h1 {
+    font-family: 'miller';
+}
+
+h2 {
+    font-family: 'proxima_nova';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'proxima_nova';
+    font-weight: normal;
+}
+
+* {
+    font-family: 'proxima_nova';
+    font-weight: normal;
+}
+
+/*------------------------------------------ navbar  */
+
 
 
 .Logo a {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 38px;
+    /* font-family: 'Cormorant Garamond', serif; */
+    /* font-size: 38px; */
     font-weight: bolder;
     color: #4d504a;
+}
+
+.Logo img {
+    width: 50%;
 }
 
 .menu li a {
@@ -19,11 +43,11 @@
 }
 
 .garamond {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
 }
 
 .spartan {
-    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
 }
 
 
@@ -89,7 +113,7 @@ form{
 
 /*--------------------------------- footer  ----------------------------*/
 footer h1{
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
 }
 .footer-links a {
     text-decoration: none;
@@ -144,6 +168,10 @@ footer h1{
     .toast-text-container {
         width: auto;
     }
+
+        .Logo img {
+            width: 50%;
+        }
  }
 
 
@@ -155,5 +183,9 @@ footer h1{
     }
     .toast-text-container {
         width: auto;
+    }
+
+    .Logo img {
+        width: 70%;
     }
  }

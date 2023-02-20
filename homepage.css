@@ -1,8 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap'); */
 
 .body-color-1{
     background-color: #F4F0ED;
+}
+
+h1{
+    font-family: 'miller';
+}
+h2{
+    font-family: 'proxima_nova';
+    font-weight: bold;
+}
+p{
+    font-family: 'proxima_nova';
+    font-weight: normal;
+}
+*{
+    font-family: 'proxima_nova';
+    font-weight: normal;
 }
 
 /*------------------------------------------ navbar  */
@@ -10,7 +26,7 @@
 
 
 .Logo a {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
     /* font-size: 38px; */
     font-weight: bolder;
     color: #4d504a;
@@ -28,11 +44,11 @@
 }
 
 .garamond {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
 }
 
 .spartan {
-    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
 }
 
 /* navbar ------------------------------------------  */
@@ -72,7 +88,7 @@
 
 
 .banner h1 {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
     font-size: 50px;
 }
 
@@ -98,7 +114,7 @@
 }
 
 .benefit-header {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
 
 }
 
@@ -135,7 +151,7 @@
 
 /*--------------------------------------------- footer  */
 footer h1{
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
     font-size: 48px;
     color: #4d504a;
 }
@@ -197,7 +213,7 @@ footer h1{
 }
 
 .tool-box h5 {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
 }
 
 .tool-box p {
