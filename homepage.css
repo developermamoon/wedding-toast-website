@@ -11,10 +11,17 @@
 
 .Logo a {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 38px;
+    /* font-size: 38px; */
     font-weight: bolder;
     color: #4d504a;
 }
+
+.Logo img{
+    width: 50%;
+}
+
+
+
 
 .menu li a {
     font-size: 18px;
@@ -250,6 +257,10 @@ footer h1{
         .resize-image-2{
             width: 300px;
         }
+
+        .Logo img {
+            width: 50%;
+        }
 }
 
 
@@ -273,6 +284,7 @@ footer h1{
 
     .logo-section .container {
         width: auto;
+        display: none;
     }
 
     .resize-image-1 {
@@ -289,5 +301,13 @@ footer h1{
 
     .space {
         padding: 60px 40px;
+    }
+
+    .Logo img {
+        width: 70%;
+    }
+
+    .all-menu ul li{
+        margin: 0;
     }
 }
