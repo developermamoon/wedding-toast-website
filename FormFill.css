@@ -91,11 +91,11 @@ form {
 }
 
 .toast-box h5{
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
     font-size: 24px;
 }
 .toast-box p{
-    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
     font-size: 14px;
 }
 
@@ -272,7 +272,7 @@ form {
 
 
 footer h1 {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
     font-size: 48px;
     color: #4d504a;
 }

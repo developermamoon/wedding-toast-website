@@ -132,6 +132,9 @@ p{
 }
 .why-wait{
     background-color: #989898;
+    background-image: url('./images/Group\ 1.png');
+    height: 528px;
+    /* width: auto; */
 }
 
 .space{
@@ -152,6 +155,8 @@ p{
 /*--------------------------------------------- footer  */
 footer h1{
     /* font-family: 'Cormorant Garamond', serif; */
+    /* font-family: 'miller'; */
+    font-family: 'proxima_nova';
     font-size: 48px;
     color: #4d504a;
 }
