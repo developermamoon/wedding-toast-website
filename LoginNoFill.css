@@ -2,21 +2,21 @@
 /* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap'); */
 
 
-h1 {
+h1{
     font-family: 'miller';
 }
 
-h2 {
+h2{
     font-family: 'proxima_nova';
     font-weight: bold;
 }
 
-p {
+p{
     font-family: 'proxima_nova';
     font-weight: normal;
 }
 
-* {
+*{
     font-family: 'proxima_nova';
     font-weight: normal;
 }
@@ -64,6 +64,8 @@ p {
 .login-banner h1{
     font-size: 70px;
     padding-top: 40px;
+    font-family: 'proxima_nova';
+    font-weight: bold;
 }
 
 .login-banner .container{
@@ -83,6 +85,10 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.registration-banner h1{
+    font-family: 'proxima_nova';
 }
 
 .registration-banner .container{

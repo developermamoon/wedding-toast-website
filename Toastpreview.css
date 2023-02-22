@@ -48,7 +48,7 @@ p {
 }
 
 .spartan {
-    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
 }
 
 /*-------------------------------------------------- banner */
@@ -60,6 +60,10 @@ p {
     /* background-position: center; */
     padding-bottom: 350px;
     position: relative;
+}
+
+.toast-preview-banner h1{
+    font-family: 'proxima_nova';
 }
 
 .dark-shadow {
